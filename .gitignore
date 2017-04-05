@@ -52,6 +52,8 @@ coverage.xml
 # Django stuff:
 *.log
 local_settings.py
+# pycham extension
+.idea
 
 # Flask stuff:
 instance/
@@ -80,6 +82,7 @@ celerybeat-schedule
 
 # virtualenv
 venv/
+.venv/
 ENV/
 
 # Spyder project settings
