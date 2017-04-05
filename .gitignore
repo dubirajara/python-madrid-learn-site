@@ -85,7 +85,16 @@ venv/
 .venv/
 ENV/
 
-db.sqlite3
+# more stuff
+.DS_Store
+.bash_profile
+.bash_profile.swp
+*.sqlite3
+*.pyc
+__pycache__
+_pgbackup
+staticsfiles
+
 # Spyder project settings
 .spyderproject
 
