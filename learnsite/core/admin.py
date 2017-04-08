@@ -1,3 +1,5 @@
 from django.contrib import admin
+from .models import UserLearn
 
-# Register your models here.
+
+admin.site.register(UserLearn)
