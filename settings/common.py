@@ -22,7 +22,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'gzp%7llexc0dav*j5h(bi=$b@o(zyjxwq61--_f62)*9ged(cz'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ["*"]
 
@@ -35,7 +35,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'learnsite.core'
+    'learnsite.core',
+    'learnsite.users'
+
 ]
 
 MIDDLEWARE = [
@@ -119,4 +121,4 @@ MEDIA_ROOT = os.path.join(BASE_DIR, "media")
 
 # Custom user Model
 
-AUTH_USER_MODEL = 'core.UserLearn'
+AUTH_USER_MODEL = 'users.UserLearn'
